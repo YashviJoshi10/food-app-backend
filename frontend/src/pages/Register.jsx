@@ -16,7 +16,7 @@ const Register = () => {
             nav('/auth/login')
             console.log('qq',form)
         } catch(e){
-            console.error('Registration error:', e.response?.data || e.message);
+        // console.error('Registration error:', e.response?.data || e.message);
         alert('Registration failed')
         }
     }
